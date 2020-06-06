@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a8069ad651919e40886945bb90fcbe8, type: 3}
+  m_Name: 1001
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: EventNodes
+      Entry: 7
+      Data: 0|Novels.INovelsNode[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 1|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 2|LoadScene, Assembly-CSharp
+    - Name: SceneId
+      Entry: 1
+      Data: 1001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Contents
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[Novels.IContent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 5|Novels.BlackScreenContent, Assembly-CSharp
+    - Name: Str
+      Entry: 1
+      Data: "\u8FDB\u5165\u6F14\u793ADemo\u2026\u2026"
+    - Name: IsNeedClick
+      Entry: 5
+      Data: false
+    - Name: IsClose
+      Entry: 5
+      Data: true
+    - Name: EnterFade
+      Entry: 4
+      Data: 0.5
+    - Name: StayTime
+      Entry: 4
+      Data: 1
+    - Name: LeaveFade
+      Entry: 4
+      Data: 0.5
+    - Name: TextEffect
+      Entry: 3
+      Data: 2
+    - Name: EffectTime
+      Entry: 4
+      Data: 0.5
+    - Name: BGType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 7|AudioSet, Assembly-CSharp
+    - Name: IsSetBgm
+      Entry: 5
+      Data: true
+    - Name: Bgm
+      Entry: 7
+      Data: 8|AudioClipData, Assembly-CSharp
+    - Name: AudioRes
+      Entry: 6
+      Data: 
+    - Name: Volume
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AudioDatas
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[AudioClipData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Contents
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[Novels.IContent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 12|Novels.DialogueContent, Assembly-CSharp
+    - Name: ShowStr
+      Entry: 1
+      Data: CH04_L
+    - Name: Expression
+      Entry: 3
+      Data: 0
+    - Name: CharaName
+      Entry: 6
+      Data: 
+    - Name: Close
+      Entry: 3
+      Data: 0
+    - Name: TextEffect
+      Entry: 3
+      Data: 1
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: Str
+      Entry: 1
+      Data: "\u6CA1\u60F3\u5230\u53C8\u6709\u4E00\u4E2A\u4EBA\u6765\u5230\u4E86\u8FD9\u91CC\u2026\u2026"
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: false
+    - Name: IsCloseBlack
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|Novels.DialogueContent, Assembly-CSharp
+    - Name: ShowStr
+      Entry: 1
+      Data: CH03_R
+    - Name: Expression
+      Entry: 3
+      Data: 0
+    - Name: CharaName
+      Entry: 6
+      Data: 
+    - Name: Close
+      Entry: 3
+      Data: 0
+    - Name: TextEffect
+      Entry: 3
+      Data: 1
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: Str
+      Entry: 1
+      Data: "\u55EF\uFF1F"
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: false
+    - Name: IsCloseBlack
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|Novels.DialogueContent, Assembly-CSharp
+    - Name: ShowStr
+      Entry: 1
+      Data: CH03_R
+    - Name: Expression
+      Entry: 3
+      Data: 7
+    - Name: CharaName
+      Entry: 6
+      Data: 
+    - Name: Close
+      Entry: 3
+      Data: 0
+    - Name: TextEffect
+      Entry: 3
+      Data: 1
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: Str
+      Entry: 1
+      Data: "\u4E8B\u60C5\u53D8\u5F97\u6709\u8DA3\u4E86\u5462"
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: true
+    - Name: IsCloseBlack
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
